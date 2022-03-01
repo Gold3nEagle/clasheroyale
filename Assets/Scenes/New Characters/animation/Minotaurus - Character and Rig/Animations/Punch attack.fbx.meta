@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Take 001
+    second: Punch
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -21,19 +21,51 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'lavoro_Scena_5:QuickRigCharacter_RightForeArm'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Punch
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -79,8 +111,1281 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: lavoro_Scena_5:QuickRigCharacter_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_LeftThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_LeftThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_LeftThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftpointer1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftpointer2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftpointer3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftmiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftmiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftmiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftring1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:jointQuckrigCharacter_Leftring2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Leftring3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_LeftPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_LeftPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_LeftPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_RightThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_RightThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_RightThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightpointer1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightpointer2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightpointer3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightmiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightmiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightmiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightring1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:jointQuckrigCharacter_Rightring2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_Rightring3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_RightPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_RightPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuckrigCharacter_RightPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lavoro_Scena_5:QuickRigCharacter_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Punch attack(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:minotaur_lp_def
+      parentName: Punch attack(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Guides
+      parentName: Punch attack(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:Head
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0, y: 2.1737115, z: -0.06511195}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:Hips
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0, y: 1.1462517, z: 0.03897461}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.32371497, y: 1.9126571, z: -0.13200633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftFoot
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.24930018, y: 0.40247834, z: -0.17874047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftForeArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.6651554, y: 1.566152, z: -0.0588821}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftHand
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.9216494, y: 1.3328574, z: 0.008342928}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.25746408, y: 0.7534027, z: 0.24775255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftShoulder
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.1517745, y: 1.8463485, z: -0.13200633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftToeBase
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.22695114, y: 0.062482003, z: -0.043012347}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:LeftUpLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.13813178, y: 1.2054619, z: 0.0388398}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:Neck
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0.000036816742, y: 1.979105, z: -0.10818691}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:Reference
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0, y: -0.00088867184, z: 0.00000015258789}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.32371497, y: 1.9126571, z: -0.13200633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightFoot
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.24930018, y: 0.40247834, z: -0.17874047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightForeArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.6651554, y: 1.566152, z: -0.0588821}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightHand
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.9216494, y: 1.3328574, z: 0.008342928}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.26145545, y: 0.73853767, z: 0.24775255}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightShoulder
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.1517745, y: 1.8463485, z: -0.13200633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightToeBase
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.22695114, y: 0.062482003, z: -0.043012347}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:RightUpLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: 0.13813178, y: 1.2054619, z: 0.0388398}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:Spine
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0, y: 1.3285699, z: 0.032883942}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:Spine1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0, y: 1.4546081, z: -0.0012610672}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:Spine2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Guides
+      position: {x: -0, y: 1.5806465, z: -0.035406075}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Reference
+      parentName: Punch attack(Clone)
+      position: {x: -0, y: -0.00088867184, z: 0.00000015258789}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Hips
+      parentName: lavoro_Scena_5:QuickRigCharacter_Reference
+      position: {x: 0, y: 1.3907673, z: 0.00013482197}
+      rotation: {x: 0.4915821, y: -0.5082785, z: -0.4915821, w: 0.5082785}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftUpLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Hips
+      position: {x: -0.059181694, y: 0.0018421778, z: 0.13813178}
+      rotation: {x: -0, y: -0, z: -0.99986064, w: -0.016696393}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftUpLeg
+      position: {x: -0.5120962, y: 0.00000041606683, z: 0.0000004659592}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000004}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftFoot
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftLeg
+      position: {x: -0.5523687, y: 0.00000006854412, z: -0.0000002047588}
+      rotation: {x: -0.000000016391859, y: 0.00000008914571, z: 0.19104274, w: 0.98158175}
+      scale: {x: 0.9999996, y: 1, z: 0.99999976}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftToeBase
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftFoot
+      position: {x: -0.36676845, y: -0.000000019217833, z: 0.000000098155056}
+      rotation: {x: -0, y: -0, z: 1.4612639e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightUpLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Hips
+      position: {x: -0.059181694, y: 0.0018421778, z: -0.13813178}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: -0.016691461, w: 0.9998607}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightUpLeg
+      position: {x: 0.52618635, y: -0.00000047597527, z: -0.0000011370638}
+      rotation: {x: 0.000000029300576, y: 0.00000003029576, z: 0.0000049322844, w: -1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightFoot
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightLeg
+      position: {x: 0.5431205, y: -0.0000005080527, z: 0.00000010643099}
+      rotation: {x: 0.000003029977, y: -0.000015448772, z: -0.19104277, w: -0.98158175}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000004}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightToeBase
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightFoot
+      position: {x: 0.36676845, y: -0.00000002600157, z: 0.000000008997699}
+      rotation: {x: 0.000025419531, y: -0.000000028639079, z: 6.143847e-11, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Spine
+      parentName: lavoro_Scena_5:QuickRigCharacter_Hips
+      position: {x: -0.18241997, y: -0.000000018108455, z: 0}
+      rotation: {x: -0, y: 0.000000029802326, z: 0.11532546, w: 0.9933278}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: lavoro_Scena_5:QuickRigCharacter_Spine1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Spine
+      position: {x: -0.13058144, y: -0.00000002914051, z: 7.0417094e-10}
+      rotation: {x: -2.220446e-16, y: -1.7763568e-15, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Spine2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Spine1
+      position: {x: -0.13058156, y: 0.000000034364042, z: -0.00000001343694}
+      rotation: {x: 0.0000019098445, y: 0.00004538211, z: -0.04193538, w: 0.99912035}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftShoulder
+      parentName: lavoro_Scena_5:QuickRigCharacter_Spine2
+      position: {x: -0.27874896, y: -0.047285922, z: 0.15174915}
+      rotation: {x: -0.53611016, y: 0.4610617, z: 0.35723364, w: 0.6102395}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftShoulder
+      position: {x: -0.1842835, y: -0.0000000819218, z: 0.00000019548284}
+      rotation: {x: 0.6951659, y: 0.12940022, z: 0.12940028, w: 0.6951658}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftForeArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftArm
+      position: {x: -0.49192995, y: -0.0000066026373, z: 0.000007489578}
+      rotation: {x: -0.000000059604638, y: -0, z: 0.0000000074505797, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: lavoro_Scena_5:QuickRigCharacter_LeftHand
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftForeArm
+      position: {x: -0.3531782, y: 0.00000014449652, z: 0.000000063827116}
+      rotation: {x: 0.00000008940696, y: -0.00000002235174, z: -1.3322673e-15, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999994}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftThumb1
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftHand
+      position: {x: -0.10640866, y: 0.08391245, z: 0.012578352}
+      rotation: {x: -0.56265754, y: 0.3081692, z: -0.27043876, w: 0.7178518}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftThumb2
+      parentName: lavoro_Scena_5:QuckrigCharacter_LeftThumb1
+      position: {x: -0.05878518, y: 0.0023211036, z: 0.004195277}
+      rotation: {x: -0.00062096125, y: -0.025648655, z: -0.0053282683, w: 0.9996567}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000005}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftThumb3
+      parentName: lavoro_Scena_5:QuckrigCharacter_LeftThumb2
+      position: {x: -0.045387045, y: -0.00020922718, z: 0.0055313525}
+      rotation: {x: -0.00003881681, y: 0.04330276, z: -0.009068584, w: 0.9990208}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000005}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftThumb5
+      parentName: lavoro_Scena_5:QuckrigCharacter_LeftThumb3
+      position: {x: -0.0570835, y: -0.0021119765, z: 0.0064072288}
+      rotation: {x: 0.000000024858384, y: 0.9881127, z: 0.000000028112844, w: 0.15373172}
+      scale: {x: 0.9999996, y: 1, z: 0.9999998}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftpointer1
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftHand
+      position: {x: -0.32675514, y: 0.08532504, z: -0.010984419}
+      rotation: {x: -0.45996493, y: 0.15273115, z: 0.025706617, w: 0.8743253}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftpointer2
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftpointer1
+      position: {x: -0.053721685, y: 0.014160608, z: -0.005080919}
+      rotation: {x: -0.005828141, y: -0.008362351, z: 0.0055644647, w: 0.9999326}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftpointer3
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftpointer2
+      position: {x: -0.038448922, y: 0.011484776, z: 0.0002544912}
+      rotation: {x: 0.00000005902482, y: -0.042476814, z: -0.00000006642725, w: 0.99909747}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftpointer4
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftpointer3
+      position: {x: -0.04346459, y: 0.010632312, z: 0.0018619079}
+      rotation: {x: -0.000000016215814, y: -0.87831676, z: -0.0000000096489865, w: 0.47807905}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000006}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftmiddle1
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftHand
+      position: {x: -0.31520745, y: 0.023460124, z: -0.0117053455}
+      rotation: {x: -0.4780075, y: 0.05285242, z: 0.12165016, w: 0.86828375}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftmiddle2
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftmiddle1
+      position: {x: -0.06658055, y: 0.017462784, z: -0.005173086}
+      rotation: {x: -0.00043258065, y: 0.008970394, z: -0.0025488415, w: 0.9999565}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftmiddle3
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftmiddle2
+      position: {x: -0.054548636, y: 0.010660365, z: -0.001881803}
+      rotation: {x: -0.0036011736, y: -0.060344152, z: -0.013235382, w: 0.9980834}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftmiddle4
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftmiddle3
+      position: {x: -0.054334816, y: 0.006508966, z: 0.008382047}
+      rotation: {x: 0.000000108583244, y: 0.87831676, z: -0.000000022680716, w: -0.4780791}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000002}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftring1
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftHand
+      position: {x: -0.29771185, y: -0.03305705, z: 0.019363817}
+      rotation: {x: -0.44560435, y: 0.04575647, z: -0.011127505, w: 0.8939907}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: lavoro_Scena_5:jointQuckrigCharacter_Leftring2
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftring1
+      position: {x: -0.06927274, y: -0.0013874307, z: -0.011143634}
+      rotation: {x: 0.0013048943, y: -0.03984903, z: -0.0017389338, w: 0.9992033}
+      scale: {x: 1, y: 1.0000002, z: 0.9999997}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftring3
+      parentName: lavoro_Scena_5:jointQuckrigCharacter_Leftring2
+      position: {x: -0.05791082, y: -0.0015239717, z: -0.000083467}
+      rotation: {x: 0.00013959999, y: -0.008078022, z: -0.0012619281, w: 0.99996656}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: lavoro_Scena_5:QuckrigCharacter_Leftring4
+      parentName: lavoro_Scena_5:QuckrigCharacter_Leftring3
+      position: {x: -0.055117473, y: -0.0026370694, z: 0.0052642226}
+      rotation: {x: -0.00000009923137, y: -0.8160909, z: -0.000000007753087, w: 0.57792366}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftPinky1
+      parentName: lavoro_Scena_5:QuickRigCharacter_LeftHand
+      position: {x: -0.27104363, y: -0.090571165, z: 0.05601269}
+      rotation: {x: -0.41063985, y: 0.071976535, z: -0.015511976, w: 0.9088199}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftPinky2
+      parentName: lavoro_Scena_5:QuckrigCharacter_LeftPinky1
+      position: {x: -0.04188833, y: -0.0014656245, z: -0.005213755}
+      rotation: {x: 0.0026746688, y: -0.013781039, z: -0.013559159, w: 0.99980956}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftPinky3
+      parentName: lavoro_Scena_5:QuckrigCharacter_LeftPinky2
+      position: {x: -0.037352476, y: -0.0038190128, z: -0.00096611294}
+      rotation: {x: -0.000000058749503, y: -0.0027107762, z: -0.00000011245181, w: 0.99999636}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_LeftPinky4
+      parentName: lavoro_Scena_5:QuckrigCharacter_LeftPinky3
+      position: {x: -0.038615003, y: -0.0029769617, z: 0.00031495432}
+      rotation: {x: -0.000000081572104, y: 0.8160909, z: 0.000000012738633, w: -0.57792354}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightShoulder
+      parentName: lavoro_Scena_5:QuickRigCharacter_Spine2
+      position: {x: -0.27872124, y: -0.04728589, z: -0.15179987}
+      rotation: {x: 0.461117, y: 0.53607774, z: -0.6101977, w: 0.35728222}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightShoulder
+      position: {x: 0.18428354, y: 0.00000002580909, z: -0.000000053344024}
+      rotation: {x: -0.69516593, y: -0.12940022, z: -0.12940028, w: -0.6951659}
+      scale: {x: 1, y: 1.0000001, z: 1.0000005}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightForeArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightArm
+      position: {x: 0.49192992, y: -0.00005677168, z: 0.00003259152}
+      rotation: {x: -0, y: -0.0000000074505797, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: lavoro_Scena_5:QuickRigCharacter_RightHand
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightForeArm
+      position: {x: 0.35317796, y: -0.0000001819656, z: 0.000000011658415}
+      rotation: {x: 0.00000008940697, y: 0.00000008940697, z: 0.00000000745058, w: 1}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.9999999}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightThumb1
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightHand
+      position: {x: 0.11070701, y: -0.07244432, z: -0.05291627}
+      rotation: {x: 0.08634164, y: 0.008803687, z: 0.45221207, w: -0.88767785}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000005}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightThumb2
+      parentName: lavoro_Scena_5:QuckrigCharacter_RightThumb1
+      position: {x: 0.058786295, y: -0.0023264217, z: -0.004195288}
+      rotation: {x: 0.0033390368, y: -0.011181831, z: 0.016029896, w: -0.9998035}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightThumb3
+      parentName: lavoro_Scena_5:QuckrigCharacter_RightThumb2
+      position: {x: 0.04538669, y: 0.00021150442, z: -0.0055320943}
+      rotation: {x: -0.000035633548, y: 0.04332125, z: -0.009038364, w: 0.99902034}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightThumb5
+      parentName: lavoro_Scena_5:QuckrigCharacter_RightThumb3
+      position: {x: 0.057083827, y: 0.0021091045, z: -0.006406559}
+      rotation: {x: 0.000000051763678, y: -0.9881127, z: -0.000000035913736, w: -0.15373176}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightpointer1
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightHand
+      position: {x: 0.3212835, y: -0.08791283, z: 0.0014427333}
+      rotation: {x: 0.40249458, y: -0.09333457, z: -0.03420818, w: -0.91000915}
+      scale: {x: 1, y: 1.0000004, z: 1.0000006}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightpointer2
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightpointer1
+      position: {x: 0.053721912, y: -0.014159961, z: 0.005081481}
+      rotation: {x: -0.0058278423, y: -0.008368824, z: 0.005548293, w: 0.9999326}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightpointer3
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightpointer2
+      position: {x: 0.03844843, y: -0.011479995, z: -0.00025515453}
+      rotation: {x: -0.000000059631134, y: -0.042476773, z: 0.000000004306633, w: 0.9990975}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightpointer4
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightpointer3
+      position: {x: 0.043464568, y: -0.010629999, z: -0.0018622389}
+      rotation: {x: -0.0000001152858, y: 0.87831664, z: 0.000000001729187, w: -0.47807926}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightmiddle1
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightHand
+      position: {x: 0.3011777, y: -0.016228253, z: 0.011894947}
+      rotation: {x: 0.6953892, y: -0.05724182, z: -0.08542594, w: -0.71123815}
+      scale: {x: 0.9999998, y: 1.000001, z: 1.0000001}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightmiddle2
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightmiddle1
+      position: {x: 0.06657989, y: -0.017467419, z: 0.0051723183}
+      rotation: {x: -0.00043436873, y: 0.008960286, z: -0.00256209, w: 0.9999565}
+      scale: {x: 1.0000007, y: 0.99999994, z: 1.0000001}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightmiddle3
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightmiddle2
+      position: {x: 0.054548677, y: -0.010660974, z: 0.0018816969}
+      rotation: {x: -0.003603079, y: -0.060352024, z: -0.013252373, w: 0.9980827}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightmiddle4
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightmiddle3
+      position: {x: 0.054335058, y: -0.0065066833, z: -0.0083820345}
+      rotation: {x: -0.000000050478345, y: 0.87831694, z: 0.00000008166098, w: -0.478079}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightring1
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightHand
+      position: {x: 0.29209888, y: 0.045475107, z: -0.011256585}
+      rotation: {x: -0.14918959, y: 0.026926909, z: 0.020254591, w: 0.98823434}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000007}
+    - name: lavoro_Scena_5:jointQuckrigCharacter_Rightring2
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightring1
+      position: {x: 0.06927265, y: 0.0013899503, z: 0.011143088}
+      rotation: {x: 0.0013098264, y: -0.03984308, z: -0.0017585724, w: 0.9992035}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightring3
+      parentName: lavoro_Scena_5:jointQuckrigCharacter_Rightring2
+      position: {x: 0.057910692, y: 0.0015300334, z: 0.00008354647}
+      rotation: {x: 0.00013967181, y: -0.008058542, z: -0.0012436195, w: 0.99996674}
+      scale: {x: 1, y: 0.9999997, z: 0.9999997}
+    - name: lavoro_Scena_5:QuckrigCharacter_Rightring4
+      parentName: lavoro_Scena_5:QuckrigCharacter_Rightring3
+      position: {x: 0.05511721, y: 0.00263, z: -0.0052642217}
+      rotation: {x: 1.4583533e-17, y: -0.8160908, z: -1.4583533e-17, w: 0.57792366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightPinky1
+      parentName: lavoro_Scena_5:QuickRigCharacter_RightHand
+      position: {x: 0.26888224, y: 0.08090952, z: -0.062101595}
+      rotation: {x: 0.6072053, y: -0.03051564, z: 0.014676636, w: -0.7938231}
+      scale: {x: 0.9999997, y: 1.0000005, z: 1.0000001}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightPinky2
+      parentName: lavoro_Scena_5:QuckrigCharacter_RightPinky1
+      position: {x: 0.04189071, y: 0.0014713055, z: 0.0052132746}
+      rotation: {x: 0.0026619725, y: -0.013719265, z: -0.013459435, w: 0.9998117}
+      scale: {x: 1.0000004, y: 0.9999997, z: 0.9999998}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightPinky3
+      parentName: lavoro_Scena_5:QuckrigCharacter_RightPinky2
+      position: {x: 0.037349418, y: 0.0038104865, z: 0.0009668277}
+      rotation: {x: 0.000000029548369, y: -0.002710752, z: 0.000000007559166, w: 0.99999636}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuckrigCharacter_RightPinky4
+      parentName: lavoro_Scena_5:QuckrigCharacter_RightPinky3
+      position: {x: 0.038617186, y: 0.0029829913, z: -0.0003149954}
+      rotation: {x: -0.00000014909976, y: 0.8160908, z: -0.00000001869137, w: -0.5779237}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: lavoro_Scena_5:QuickRigCharacter_Neck
+      parentName: lavoro_Scena_5:QuickRigCharacter_Spine2
+      position: {x: -0.40505117, y: 0.000000014096037, z: -0.000000009277497}
+      rotation: {x: 0.0000092993305, y: 0.0001351109, z: 0.19793233, w: -0.98021567}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: lavoro_Scena_5:QuickRigCharacter_Head
+      parentName: lavoro_Scena_5:QuickRigCharacter_Neck
+      position: {x: -0.19931673, y: 0.00000021181722, z: 7.119877e-10}
+      rotation: {x: -1.8189892e-12, y: 1.45519135e-11, z: -0.0000000012564408, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: lavoro_Scena_5:persp1
+      parentName: Punch attack(Clone)
+      position: {x: 4.529623, y: 1.6549742, z: 4.8591657}
+      rotation: {x: 0.019959642, y: -0.9159105, z: 0.045904033, w: 0.39824927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      parentName: Punch attack(Clone)
+      position: {x: -0, y: -0.00088867184, z: 0.00000015258789}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_HipsEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 1.0952672, z: 0.0000000047031787}
+      rotation: {x: -0.000000049546365, y: -3.0338397e-24, z: 3.03384e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftAnkleEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.2933942, y: 0.3903201, z: -0.16268092}
+      rotation: {x: 0.000000029802319, y: 0.00000018812712, z: -0.000000104308114,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightAnkleEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.24081257, y: 0.3903208, z: -0.00000022888183}
+      rotation: {x: 0.0000004172351, y: 0.000000033527606, z: 0.00000017136333, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftWristEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.54713917, y: 1.421684, z: 0.3055112}
+      rotation: {x: -0.117030635, y: 0.769785, z: 0.4472115, w: 0.4401554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightWristEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.534752, y: 1.4235237, z: 0.35620484}
+      rotation: {x: 0.13944215, y: 0.7719437, z: 0.4709238, w: -0.40359583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftKneeEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.41707775, y: 0.7423098, z: 0.24464808}
+      rotation: {x: 0.42062005, y: -0.12386593, z: 0.06678535, w: 0.89625657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightKneeEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.30445698, y: 0.73005635, z: 0.41893813}
+      rotation: {x: 0.43134364, y: 0.06422358, z: -0.034349777, w: 0.89924306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftElbowEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.65137994, y: 1.6061387, z: 0.022942504}
+      rotation: {x: -0.04466949, y: 0.63884693, z: 0.48933598, w: 0.5919709}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightElbowEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.7038243, y: 1.5597447, z: 0.07764946}
+      rotation: {x: -0.073877305, y: -0.7096497, z: -0.48554698, w: 0.50515705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_ChestOriginEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.000110688874, y: 1.12464, z: -0.0059471163}
+      rotation: {x: 0.06703551, y: -0.0039565996, z: -0.006115277, w: 0.997724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_ChestEndEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.021206679, y: 1.6494125, z: 0.09027595}
+      rotation: {x: 0.33620346, y: -0.030335397, z: -0.02593358, w: 0.94094336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftFootEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.29339427, y: 0.05032375, z: -0.025125112}
+      rotation: {x: 1.9867885e-14, y: -0.00000019047306, z: -0.00000010430811, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightFootEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.24082422, y: 0.050324325, z: 0.13755532}
+      rotation: {x: -7.1728824e-14, y: -0.00000041857737, z: 0.00000017136335, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftShoulderEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.29917452, y: 1.9358639, z: 0.119001694}
+      rotation: {x: 0.25199404, y: -0.0029896605, z: 0.37683278, w: 0.8913401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightShoulderEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.34611717, y: 1.8905287, z: 0.14563611}
+      rotation: {x: 0.32893774, y: -0.058586985, z: -0.36468053, w: 0.8691235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_HeadEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.028415961, y: 1.8882263, z: 0.3225399}
+      rotation: {x: 0.13890834, y: -0.010455342, z: -0.017446658, w: 0.99009633}
+      scale: {x: 1.7752846, y: 1.7752846, z: 1.7752846}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHipEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.13813178, y: 1.0952672, z: 0.0000000047031787}
+      rotation: {x: -0.31733483, y: -0.19675878, z: -0.2338344, w: 0.8977227}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHipEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.13813178, y: 1.0015315, z: 0}
+      rotation: {x: -0.47244796, y: 0.08297485, z: 0.13720936, w: 0.8666497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandThumbEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.034854244, y: 1.2864683, z: 0.52504396}
+      rotation: {x: -0.17397267, y: 0.74544716, z: -0.14674342, w: 0.626505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandIndexEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.050074734, y: 1.3213632, z: 0.55682564}
+      rotation: {x: -0.83989555, y: -0.14178444, z: -0.047516324, w: 0.5217421}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandMiddleEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.027701987, y: 1.2679727, z: 0.56337315}
+      rotation: {x: 0.8312166, y: 0.008715697, z: 0.31566602, w: -0.4575567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandRingEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.013758635, y: 1.2284023, z: 0.56494874}
+      rotation: {x: -0.7159727, y: 0.07038634, z: -0.46341798, w: 0.5173709}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandPinkyEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.0047896025, y: 1.1855831, z: 0.58886236}
+      rotation: {x: 0.6622668, y: -0.20465837, z: 0.6330179, w: -0.34468248}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandThumbEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.71878034, y: 1.5531557, z: 0.08586109}
+      rotation: {x: 0.2312335, y: -0.2772734, z: 0.3643925, w: 0.85841054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandIndexEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.75771683, y: 1.5558337, z: 0.15140362}
+      rotation: {x: 0.76664716, y: 0.035654593, z: -0.57175326, w: -0.28996393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandMiddleEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.80433667, y: 1.5351702, z: 0.12642694}
+      rotation: {x: -0.581483, y: 0.0060067866, z: 0.79664713, w: 0.16490836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandRingEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.8351003, y: 1.5109667, z: 0.11158249}
+      rotation: {x: -0.39972594, y: 0.016467059, z: 0.89348984, w: 0.20401967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandPinkyEffector
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.8660724, y: 1.520332, z: 0.08179555}
+      rotation: {x: -0.20552732, y: -0.24609749, z: 0.9333674, w: 0.16130696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_Hips
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Reference
+      position: {x: 6.829753e-10, y: 1.036057, z: 0.00013482197}
+      rotation: {x: -0.000000049546365, y: -3.0338397e-24, z: 3.03384e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftUpLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Hips
+      position: {x: -0.13813178, y: 0.059210204, z: -0.0001348114}
+      rotation: {x: -0.3173348, y: -0.19675878, z: -0.23383443, w: 0.8977228}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftUpLeg
+      position: {x: 3.5527136e-17, y: -0.5120959, z: -4.440892e-18}
+      rotation: {x: 0.7041183, y: 0.14231123, z: 0.14746267, w: 0.67986745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftFoot
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftLeg
+      position: {x: 1.7763568e-17, y: -0.5523684, z: 0}
+      rotation: {x: -0.42062002, y: 0.123866044, z: -0.06678552, w: 0.8962565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftToeBase
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftFoot
+      position: {x: -0.000000085830685, y: -0.33999634, z: 0.13755582}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightUpLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Hips
+      position: {x: 0.13813178, y: 0.059210204, z: -0.0001348114}
+      rotation: {x: -0.47244796, y: 0.08297485, z: 0.13720936, w: 0.8666497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightLeg
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightUpLeg
+      position: {x: 0.000000028610229, y: -0.52618575, z: 0.000005147457}
+      rotation: {x: 0.81033164, y: -0.061911136, z: -0.08702084, w: 0.57615715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightFoot
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightLeg
+      position: {x: -0.000000009536743, y: -0.54312056, z: 0}
+      rotation: {x: -0.43134326, y: -0.06422346, z: 0.03434995, w: 0.89924324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightToeBase
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightFoot
+      position: {x: 0.000011529923, y: -0.33999628, z: 0.13755582}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Hips
+      position: {x: -0, y: 0.18231827, z: -0.006090667}
+      rotation: {x: 0.0670033, y: -0.0047273124, z: -0.006477856, w: 0.99772054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine
+      position: {x: -0, y: 0.12603821, z: -0.03414501}
+      rotation: {x: 0.13849625, y: -0.011729597, z: -0.011233948, w: 0.9902298}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine1
+      position: {x: -0, y: 0.12603836, z: -0.03414501}
+      rotation: {x: 0.13666911, y: -0.0143188555, z: -0.007988104, w: 0.9904811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftShoulder
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine2
+      position: {x: -0.1517745, y: 0.26570204, z: -0.096600264}
+      rotation: {x: 0.0000006917976, y: -0.000000073014185, z: -1.2143475e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftShoulder
+      position: {x: -0.17194048, y: 0.066308595, z: -3.5527136e-17}
+      rotation: {x: -0.050715875, y: 0.15822788, z: 0.3709574, w: 0.91366434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftForeArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftArm
+      position: {x: -0.49192938, y: 0, z: 0}
+      rotation: {x: 0.05321262, y: 0.71134233, z: 0.052238688, w: 0.6988788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHand
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftForeArm
+      position: {x: -0.35317802, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0.041366573, y: 0.21178898, z: 0.008973583, w: 0.97639835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandThumb1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHand
+      position: {x: -0.106408685, y: -0.01257843, z: 0.08391236}
+      rotation: {x: 0.49948898, y: -0.18424916, z: -0.108238615, w: 0.8395519}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandThumb2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandThumb1
+      position: {x: -0.024794692, y: -0.027301177, z: 0.046027668}
+      rotation: {x: 0.03340011, y: -0.31245708, z: -0.18282267, w: 0.9315744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandThumb3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandThumb2
+      position: {x: -0.007062378, y: -0.023374023, z: 0.038657542}
+      rotation: {x: 0.00000012410814, y: 0.0000005354209, z: 0.00000044189085, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandIndex1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHand
+      position: {x: -0.32675514, y: 0.010984344, z: 0.0853249}
+      rotation: {x: 0.03614473, y: -0.058653343, z: 0.73442817, w: 0.67518044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandIndex2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandIndex1
+      position: {x: -0.055007324, y: -0.0016456604, z: 0.00915657}
+      rotation: {x: 0.180072, y: 0.012315958, z: 0.6206127, w: 0.7630611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandIndex3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandIndex2
+      position: {x: -0.038442075, y: -0.002629242, z: 0.0112062115}
+      rotation: {x: 0.017983483, y: 0.0012304318, z: 0.047211055, w: 0.9987223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandMiddle1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHand
+      position: {x: -0.31520742, y: 0.011705322, z: 0.023460083}
+      rotation: {x: -0.13317963, y: -0.08337404, z: 0.71271, w: 0.6836347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandMiddle2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandMiddle1
+      position: {x: -0.06868255, y: 0.003197174, z: -0.0060961437}
+      rotation: {x: -0.043119486, y: -0.0017947512, z: 0.62542534, w: 0.7790896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandMiddle3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandMiddle2
+      position: {x: -0.05543243, y: -0.0023068236, z: -0.0038284778}
+      rotation: {x: -0.0031633382, y: -0.00013112549, z: 0.05939894, w: 0.9982293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandRing1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHand
+      position: {x: -0.29771185, y: -0.019363862, z: -0.033057097}
+      rotation: {x: -0.3300103, y: -0.101289, z: 0.6281174, w: 0.6973538}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandRing2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandRing1
+      position: {x: -0.066999204, y: -0.0023510742, z: -0.02074581}
+      rotation: {x: -0.110346206, y: -0.016478889, z: 0.6947505, w: 0.7105449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandRing3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandRing2
+      position: {x: -0.05657074, y: -0.008448028, z: -0.009185486}
+      rotation: {x: 9.800127e-15, y: -0.000000034715217, z: 0.00000025396756, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandPinky1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHand
+      position: {x: -0.27104363, y: -0.056012724, z: -0.09057121}
+      rotation: {x: -0.45193478, y: -0.2910349, z: 0.54942876, w: 0.6396731}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandPinky2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandPinky1
+      position: {x: -0.036349334, y: -0.015634613, z: -0.014773197}
+      rotation: {x: -0.16313827, y: -0.09728159, z: 0.60928696, w: 0.76986474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandPinky3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_LeftHandPinky2
+      position: {x: -0.03079773, y: -0.018364867, z: -0.011178398}
+      rotation: {x: -0.010247587, y: -0.0061106845, z: 0.046753626, w: 0.9988352}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightShoulder
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine2
+      position: {x: 0.1517745, y: 0.26570204, z: -0.096600264}
+      rotation: {x: 0.00000015086947, y: -0.000000010669273, z: 8.798362e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightShoulder
+      position: {x: 0.17194048, y: 0.066308595, z: -3.5527136e-17}
+      rotation: {x: 0.007483442, y: -0.14205147, z: -0.31103587, w: 0.93969256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightForeArm
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightArm
+      position: {x: 0.49192938, y: 0, z: 0}
+      rotation: {x: -0.000024983156, y: -0.77383393, z: -0.000020550919, w: 0.63338864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHand
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightForeArm
+      position: {x: 0.35317802, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0.00000027385698, y: -0.13645633, z: 0.00000020488824, w: 0.9906461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandThumb1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHand
+      position: {x: 0.110707015, y: -0.05291626, z: 0.0724443}
+      rotation: {x: 0.45090333, y: 0.3252911, z: 0.25071505, w: 0.79247326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandThumb2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandThumb1
+      position: {x: 0.009409637, y: 0.0019607544, z: 0.058193266}
+      rotation: {x: 0.0048659304, y: 0.116715916, z: 0.028850889, w: 0.9927343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandThumb3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandThumb2
+      position: {x: 0.007375793, y: -0.011117859, z: 0.043733194}
+      rotation: {x: -0.0000000877923, y: 0.000000104843124, z: -0.00000011781465,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandIndex1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHand
+      position: {x: 0.3212835, y: 0.0014427184, z: 0.08791281}
+      rotation: {x: 0.1738536, y: 0.013262936, z: -0.8088706, w: 0.5615402}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandIndex2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandIndex1
+      position: {x: 0.05532898, y: 0.0030238342, z: 0.0064756605}
+      rotation: {x: 0.11169956, y: -0.0000015485384, z: -0.48141193, w: 0.8693479}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandIndex3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandIndex2
+      position: {x: 0.039088134, y: -0.00000015258789, z: 0.009069402}
+      rotation: {x: 0.047607224, y: -0.0000002616446, z: -0.15494016, w: 0.9867761}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandMiddle1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHand
+      position: {x: 0.30117774, y: 0.011894836, z: 0.01622819}
+      rotation: {x: -0.052110296, y: -0.0016141785, z: -0.6835003, w: 0.72808605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandMiddle2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandMiddle1
+      position: {x: 0.068378754, y: 0.004003906, z: -0.008547382}
+      rotation: {x: -0.038951594, y: 0.0002752403, z: -0.625657, w: 0.77912515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandMiddle3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandMiddle2
+      position: {x: 0.055503692, y: -0.00039382934, z: -0.0034557532}
+      rotation: {x: -0.0008293226, y: 0.000005303519, z: -0.05889449, w: 0.9982639}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandRing1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHand
+      position: {x: 0.2920989, y: -0.011256713, z: -0.045475196}
+      rotation: {x: -0.24255067, y: -0.01675055, z: -0.6429121, w: 0.7263282}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandRing2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandRing1
+      position: {x: 0.067474365, y: 0.009212647, z: -0.01694517}
+      rotation: {x: -0.12691744, y: 0.005220887, z: -0.636641, w: 0.7606267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandRing3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandRing2
+      position: {x: 0.056763154, y: -0.002335205, z: -0.011335239}
+      rotation: {x: -0.006322983, y: 0.0002656444, z: -0.04114931, w: 0.999133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandPinky1
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHand
+      position: {x: 0.26888222, y: -0.062101744, z: -0.08090956}
+      rotation: {x: -0.40310594, y: 0.16757125, z: -0.62460893, w: 0.6475255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandPinky2
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandPinky1
+      position: {x: 0.034900207, y: -0.011791229, z: -0.02066679}
+      rotation: {x: -0.2536695, y: 0.113358356, z: -0.6481408, w: 0.70902413}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandPinky3
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_RightHandPinky2
+      position: {x: 0.031514283, y: -0.014082794, z: -0.014797191}
+      rotation: {x: 0.0014447409, y: -0.00064619654, z: 0.005053012, w: 0.999986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_Neck
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Spine2
+      position: {x: -0.000036816742, y: 0.39845854, z: -0.07278084}
+      rotation: {x: -0.09800551, y: 0.009692241, z: 0.0021311862, w: 0.9951364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lavoro_Scena_5:QuickRigCharacter_Ctrl_Head
+      parentName: lavoro_Scena_5:QuickRigCharacter_Ctrl_Neck
+      position: {x: 0.000036816742, y: 0.19460647, z: 0.043074958}
+      rotation: {x: -0.10552035, y: 0.008795277, z: 0.00633237, w: 0.9943581}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -91,13 +1396,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
