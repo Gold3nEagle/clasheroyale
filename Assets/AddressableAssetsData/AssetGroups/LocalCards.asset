@@ -43,6 +43,22 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Base
+  - m_GUID: 3a183304442f6244fa066feeeb46f860
+    m_Address: Ninja
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Base
+  - m_GUID: 7814381958c22bb4cb366a2bf7d1e99b
+    m_Address: Archere
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Base
+    - AI
+  - m_GUID: 5248f809b11a8b5428d773158c4e173a
+    m_Address: Zoro
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Base
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 62fd5e501abef4d188f123698eca5c92, type: 2}
   m_SchemaSet:

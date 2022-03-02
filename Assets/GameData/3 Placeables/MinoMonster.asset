@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: MinoMonster
   m_EditorClassIdentifier: 
   pType: 0
-  associatedPrefab: {fileID: 8773291558362692058, guid: 25cdd636aa3a8f44c873e2d1af0ee74a,
+  associatedPrefab: {fileID: 3445936949613951749, guid: a457b1f5fba6ea642bcc27f7252d45d3,
     type: 3}
-  alternatePrefab: {fileID: 8773291558362692058, guid: 25cdd636aa3a8f44c873e2d1af0ee74a,
+  alternatePrefab: {fileID: 1395646259766171872, guid: 6bbe3f47778730f4fb131ebffa2d4e7d,
     type: 3}
   attackType: 0
   targetType: 1
-  attackRatio: 5.5
+  attackRatio: 2
   damagePerAttack: 4
-  attackRange: 3.5
+  attackRange: 3
   hitPoints: 20
   attackClip: {fileID: 0}
   dieClip: {fileID: 0}
